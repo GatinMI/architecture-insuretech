@@ -1,0 +1,19 @@
+# helm upgrade prom prometheus-community/prometheus -n monitoring -f 04-prometheus-scrapejob-values.yaml
+extraScrapeConfigs: |
+  - job_name: scaletestapp
+    kubernetes_sd_configs:
+      - role: pod
+    scrape_interval: 15s
+    scrape_timeout: 10s
+    relabel_configs:
+      - source_labels: [__meta_kubernetes_pod_label_app]
+        regex: scaletestapp
+        action: keep
+      - source_labels: [__meta_kubernetes_namespace]
+        target_label: namespace
+      - source_labels: [__meta_kubernetes_pod_name]
+        target_label: pod
+      - source_labels: [__address__]
+        regex: ([^:]+)(?::\d+)?
+        replacement: $1:8080
+        target_label: __address__
