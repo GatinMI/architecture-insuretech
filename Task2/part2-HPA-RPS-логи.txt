@@ -1,0 +1,1062 @@
+=== 04:20:32 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           44m
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/100     1         10        1          40s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          43m
+=== 04:20:42 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           44m
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/100     1         10        1          50s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          43m
+=== 04:20:52 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           44m
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/100     1         10        1          60s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          43m
+=== 04:21:02 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           44m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   11780m/100   1         10        1          71s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          44m
+=== 04:21:13 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           44m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   11780m/100   1         10        1          81s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          44m
+=== 04:21:23 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           44m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   30723m/100   1         10        1          91s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          44m
+=== 04:21:33 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   49580m/100   1         10        1          101s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          44m
+=== 04:21:43 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   49580m/100   1         10        1          111s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          44m
+=== 04:21:53 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   68561m/100   1         10        1          2m1s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          44m
+=== 04:22:04 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   87847m/100   1         10        1          2m12s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          45m
+=== 04:22:14 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   87847m/100   1         10        1          2m22s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          45m
+=== 04:22:24 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45m
+NAME           REFERENCE                 TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   107076m/100   1         10        1          2m32s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          45m
+=== 04:22:34 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           46m
+NAME           REFERENCE                 TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   126076m/100   1         10        1          2m42s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          45m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3s
+=== 04:22:44 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           46m
+NAME           REFERENCE                 TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   126076m/100   1         10        1          2m53s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          45m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          14s
+=== 04:22:55 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           46m
+NAME           REFERENCE                 TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   133095m/100   1         10        2          3m3s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          45m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          24s
+=== 04:23:05 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           46m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66457m/100   1         10        2          3m13s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          46m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          34s
+=== 04:23:15 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           46m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66457m/100   1         10        2          3m23s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          46m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          44s
+=== 04:23:25 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           46m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66747m/100   1         10        2          3m33s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          46m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          54s
+=== 04:23:35 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           47m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66885m/100   1         10        2          3m43s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          46m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          65s
+=== 04:23:46 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           47m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66885m/100   1         10        2          3m54s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          46m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          75s
+=== 04:23:56 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           47m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66795m/100   1         10        2          4m4s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          46m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          85s
+=== 04:24:06 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           47m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66819m/100   1         10        2          4m14s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          47m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          95s
+=== 04:24:16 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           47m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   67104m/100   1         10        2          4m24s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          47m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          105s
+=== 04:24:26 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           48m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   67104m/100   1         10        2          4m34s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          47m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          116s
+=== 04:24:37 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           48m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   67019m/100   1         10        2          4m45s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          47m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          2m6s
+=== 04:24:47 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           48m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   67238m/100   1         10        2          4m55s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          47m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          2m16s
+=== 04:24:57 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           48m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   67238m/100   1         10        2          5m5s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          47m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          2m26s
+=== 04:25:07 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           48m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66990m/100   1         10        2          5m15s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          48m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          2m36s
+=== 04:25:17 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           48m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66842m/100   1         10        2          5m25s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          48m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          2m47s
+=== 04:25:28 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           49m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66842m/100   1         10        2          5m36s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          48m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          2m57s
+=== 04:25:38 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           49m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66766m/100   1         10        2          5m46s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          48m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3m7s
+=== 04:25:48 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           49m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66614m/100   1         10        2          5m56s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          48m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3m17s
+=== 04:25:58 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           49m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66614m/100   1         10        2          6m6s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          48m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3m27s
+=== 04:26:08 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           49m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66438m/100   1         10        2          6m16s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          49m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3m37s
+=== 04:26:18 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           49m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66476m/100   1         10        2          6m27s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          49m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3m48s
+=== 04:26:29 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           50m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66476m/100   1         10        2          6m37s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          49m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          3m58s
+=== 04:26:39 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           50m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66371m/100   1         10        2          6m47s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          49m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          4m8s
+=== 04:26:49 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           50m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66490m/100   1         10        2          6m57s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          49m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          4m18s
+=== 04:26:59 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           50m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66490m/100   1         10        2          7m7s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          49m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          4m28s
+=== 04:27:09 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           50m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66442m/100   1         10        2          7m18s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          50m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          4m39s
+=== 04:27:20 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           50m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66619m/100   1         10        2          7m28s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          50m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          4m49s
+=== 04:27:30 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           51m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66619m/100   1         10        2          7m38s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          50m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          4m59s
+=== 04:27:40 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           51m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66757m/100   1         10        2          7m48s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          50m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          5m9s
+=== 04:27:50 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           51m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66838m/100   1         10        2          7m58s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          50m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          5m19s
+=== 04:28:00 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           51m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66838m/100   1         10        2          8m9s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          51m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          5m30s
+=== 04:28:11 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           51m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66976m/100   1         10        2          8m19s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          51m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          5m40s
+=== 04:28:21 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           51m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66947m/100   1         10        2          8m29s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          51m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          5m50s
+=== 04:28:31 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           52m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66947m/100   1         10        2          8m39s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          51m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          6m
+=== 04:28:41 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           52m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66847m/100   1         10        2          8m49s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          51m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          6m10s
+=== 04:28:51 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           52m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66899m/100   1         10        2          9m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          51m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          6m21s
+=== 04:29:02 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           52m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66885m/100   1         10        2          9m10s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          52m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          6m31s
+=== 04:29:12 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           52m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66885m/100   1         10        2          9m20s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          52m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          6m41s
+=== 04:29:22 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           52m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66866m/100   1         10        2          9m30s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          52m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          6m51s
+=== 04:29:32 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           53m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66647m/100   1         10        2          9m40s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          52m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          7m1s
+=== 04:29:42 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           53m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66647m/100   1         10        2          9m51s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          52m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          7m12s
+=== 04:29:53 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           53m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66633m/100   1         10        2          10m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          52m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          7m22s
+=== 04:30:03 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           53m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66652m/100   1         10        2          10m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          53m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          7m32s
+=== 04:30:13 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           53m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66652m/100   1         10        2          10m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          53m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          7m42s
+=== 04:30:23 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           53m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66571m/100   1         10        2          10m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          53m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          7m52s
+=== 04:30:33 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           54m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66557m/100   1         10        2          10m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          53m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          8m3s
+=== 04:30:44 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           54m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66557m/100   1         10        2          10m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          53m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          8m13s
+=== 04:30:54 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           54m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   66390m/100   1         10        2          11m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          53m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          8m23s
+=== 04:31:04 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           54m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   60671m/100   1         10        2          11m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          54m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          8m33s
+=== 04:31:14 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           54m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   60671m/100   1         10        2          11m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          54m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          8m43s
+=== 04:31:24 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           54m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   51199m/100   1         10        2          11m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          54m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          8m54s
+=== 04:31:35 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           55m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   41723m/100   1         10        2          11m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          54m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          9m4s
+=== 04:31:45 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           55m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   41723m/100   1         10        2          11m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          54m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          9m14s
+=== 04:31:55 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           55m
+NAME           REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   32238m/100   1         10        2          12m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-5dffx   1/1     Running   0          54m
+scaletestapp-7c7d8499bb-qc8ll   1/1     Running   0          9m24s
+=== 04:32:05 ===
+=== 04:32:15 ===
+=== 04:32:26 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           5s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5s
+=== 04:32:36 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           15s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          15s
+=== 04:32:46 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           25s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          25s
+=== 04:32:56 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           35s
+NAME           REFERENCE                 TARGETS                 MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: <unknown>/80%   1         10        0          10s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          35s
+=== 04:33:06 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           45s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 31%/80%   1         10        1          20s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          45s
+=== 04:33:16 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           56s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 31%/80%   1         10        1          31s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          56s
+=== 04:33:27 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           66s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 31%/80%   1         10        1          41s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          66s
+=== 04:33:37 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           76s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 31%/80%   1         10        1          51s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          76s
+=== 04:33:47 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           86s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 46%/80%   1         10        1          61s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          86s
+=== 04:33:57 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           96s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 46%/80%   1         10        1          71s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          96s
+=== 04:34:07 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           107s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 46%/80%   1         10        1          82s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          107s
+=== 04:34:18 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           117s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 46%/80%   1         10        1          92s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          117s
+=== 04:34:28 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           2m7s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 46%/80%   1         10        1          102s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          2m7s
+=== 04:34:38 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           2m17s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 46%/80%   1         10        1          112s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          2m17s
+=== 04:34:48 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           2m27s
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 134%/80%   1         10        1          2m2s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          2m27s
+=== 04:34:58 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           2m37s
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 134%/80%   1         10        1          2m12s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          13s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          2m38s
+=== 04:35:09 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           2m48s
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 134%/80%   1         10        2          2m23s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          23s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          2m48s
+=== 04:35:19 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           2m58s
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 134%/80%   1         10        2          2m33s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          33s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          2m58s
+=== 04:35:29 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           3m8s
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 134%/80%   1         10        2          2m43s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          43s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          3m8s
+=== 04:35:39 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           3m18s
+NAME           REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 134%/80%   1         10        2          2m53s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          53s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          3m18s
+=== 04:35:49 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           3m28s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 97%/80%   1         10        2          3m3s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          64s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          3m29s
+=== 04:36:00 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           3m39s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 97%/80%   1         10        2          3m14s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          74s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          14s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          3m39s
+=== 04:36:10 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           3m49s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 97%/80%   1         10        3          3m24s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          84s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          24s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          3m49s
+=== 04:36:20 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           3m59s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 97%/80%   1         10        3          3m34s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          94s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          34s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          3m59s
+=== 04:36:30 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           4m9s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 97%/80%   1         10        3          3m44s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          104s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          44s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          4m9s
+=== 04:36:40 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           4m19s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 97%/80%   1         10        3          3m54s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          114s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          54s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          4m19s
+=== 04:36:50 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           4m29s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        3          4m5s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2m5s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          65s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          4m30s
+=== 04:37:01 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           4m40s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        3          4m15s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2m15s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          75s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          4m40s
+=== 04:37:11 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           4m50s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        3          4m25s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2m25s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          85s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          4m50s
+=== 04:37:21 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           5m
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        3          4m35s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2m35s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          95s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5m
+=== 04:37:31 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           5m10s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        3          4m45s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2m45s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          105s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5m10s
+=== 04:37:41 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/3     3            3           5m20s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        3          4m56s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          2m56s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          116s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5m21s
+=== 04:37:52 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           5m31s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 95%/80%   1         10        3          5m6s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          3m6s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          2m6s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5m31s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          5s
+=== 04:38:02 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           5m41s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 95%/80%   1         10        4          5m16s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          3m16s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          2m16s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5m41s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          15s
+=== 04:38:12 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           5m51s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 95%/80%   1         10        4          5m26s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          3m26s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          2m26s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          5m51s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          25s
+=== 04:38:22 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           6m1s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 95%/80%   1         10        4          5m36s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          3m36s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          2m36s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          6m1s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          35s
+=== 04:38:32 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           6m11s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 95%/80%   1         10        4          5m46s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          3m46s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          2m46s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          6m11s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          45s
+=== 04:38:43 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           6m22s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 95%/80%   1         10        4          5m57s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          3m57s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          2m57s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          6m22s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          56s
+=== 04:38:53 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           6m32s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        4          6m7s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          4m7s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          3m7s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          6m32s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          66s
+=== 04:39:03 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           6m42s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        4          6m17s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          4m17s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          3m17s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          6m42s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          76s
+=== 04:39:13 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           6m52s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        4          6m27s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          4m27s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          3m27s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          6m52s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          86s
+=== 04:39:23 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           7m2s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        4          6m37s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          4m37s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          3m37s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          7m2s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          96s
+=== 04:39:33 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           7m13s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        4          6m48s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          4m48s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          3m48s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          7m13s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          107s
+=== 04:39:44 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           7m23s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        4          6m58s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          4m58s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          3m58s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          7m23s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          117s
+=== 04:39:54 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           7m33s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        4          7m8s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          5m8s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4m8s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          7m33s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          2m7s
+=== 04:40:04 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           7m43s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        4          7m18s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          5m18s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4m18s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          7m43s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          2m17s
+=== 04:40:14 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           7m53s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        4          7m28s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          5m28s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4m28s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          7m53s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          2m27s
+=== 04:40:24 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           8m3s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        4          7m39s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          5m39s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4m39s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          8m4s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          2m38s
+=== 04:40:35 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           8m14s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        4          7m49s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          5m49s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4m49s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          8m14s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          2m48s
+=== 04:40:45 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           8m24s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        4          7m59s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          5m59s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          4m59s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          8m24s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          2m58s
+=== 04:40:55 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           8m34s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        4          8m9s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          6m9s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          5m9s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          8m34s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          3m8s
+=== 04:41:05 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           8m44s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        4          8m19s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          6m19s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          5m19s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          8m44s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          3m18s
+=== 04:41:15 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           8m54s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        4          8m29s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          6m30s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          5m30s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          8m55s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          3m29s
+=== 04:41:26 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           9m5s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        4          8m40s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          6m40s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          5m40s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          9m5s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          3m39s
+=== 04:41:36 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           9m15s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        4          8m50s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          6m50s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          5m50s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          9m15s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          3m49s
+=== 04:41:46 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           9m25s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        4          9m
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          7m
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          6m
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          9m25s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          3m59s
+=== 04:41:56 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           9m35s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 85%/80%   1         10        4          9m10s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          7m10s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          6m10s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          9m35s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          4m9s
+=== 04:42:06 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           9m45s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 85%/80%   1         10        4          9m20s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          7m21s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          6m21s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          9m46s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          4m20s
+=== 04:42:17 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           9m56s
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 85%/80%   1         10        4          9m31s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          7m31s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          6m31s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          9m56s
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          4m30s
+=== 04:42:27 ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   4/4     4            4           10m
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 85%/80%   1         10        4          9m41s
+NAME                            READY   STATUS    RESTARTS   AGE
+scaletestapp-7c7d8499bb-2pct2   1/1     Running   0          7m41s
+scaletestapp-7c7d8499bb-6fhjm   1/1     Running   0          6m41s
+scaletestapp-7c7d8499bb-ncjcl   1/1     Running   0          10m
+scaletestapp-7c7d8499bb-qqc2q   1/1     Running   0          4m40s

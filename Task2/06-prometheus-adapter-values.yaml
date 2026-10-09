@@ -1,0 +1,16 @@
+prometheus:
+  url: "http://prom-prometheus-server.monitoring.svc.cluster.local"
+  port: 80
+
+rules:
+  custom:
+    - seriesQuery: "http_requests_total{__name__=\"http_requests_total\",pod!=\"\"}"
+      resources:
+        overrides:
+          namespace:
+            resource: namespace
+          pod:
+            resource: pod
+      name:
+        as: "rps"
+      metricsQuery: "sum(rate(http_requests_total[2m])) by (namespace, pod)"
