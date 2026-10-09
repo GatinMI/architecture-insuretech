@@ -1,0 +1,255 @@
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" modified="2026-10-09T12:32:34.010Z" version="22.1.22" etag="UrXCu_5LQj5DvxDJjCbN" type="embed">
+  <diagram name="to-be osago" id="insuretech-c4-osago-01">
+    <mxGraphModel dx="1723" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2300" pageHeight="1460" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:18px;font-family:Arial;color:#000000;direction:ltr;line-height:130%;opacity:1&quot;&gt;&lt;b&gt;C4 Container Diagram: InsureTech (to-be) — Event-Driven и продажа ОСАГО&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="client" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Клиент&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="80" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="partner" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Системы партнёров&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;B2B-партнёры, интегрирующие страховые услуги в свои продукты&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pay" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Платёжный сервис&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;Оплата страховых полисов, деньги уходят на счета страховых компаний&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="40" y="330" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ins0" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="1950" y="320" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ins1" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="1940" y="330" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ins" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Системы страховых компаний&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;Внешние API страховых: продукты, тарифы, андеррайтинг, расчёты, оформление ОСАГО (сейчас 5, планируется 10)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="1950" y="340" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;InsureTech (to-be)&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[System]&lt;/div&gt;" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;" parent="1" vertex="1">
+          <mxGeometry x="450" y="280" width="1430" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="web" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;InsureTech Web&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;JavaScript, React]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Веб-приложение для частных клиентов; в сценарии ОСАГО принимает предложения по WebSocket&lt;/font&gt;&lt;/div&gt;" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="330" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="core" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;core-app&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;Kotlin, SpringBoot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Поиск продуктов, оформление заявок; публикует события оформления (Outbox), потребляет топики продуктов; в сценарии ОСАГО держит сессию клиента, отдаёт предложения по WebSocket&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="490" y="480" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cdb" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;core-db&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Заявки клиентов, включая ОСАГО; outbox-таблица для событий&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;size=6;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+          <mxGeometry x="810" y="490" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cinfo" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;client-info&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;Kotlin, SpringBoot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Учёт клиентских данных: ФИО, контакты, документы&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="490" y="690" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cidb" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;client-info-db&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Данные клиентов&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;size=6;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+          <mxGeometry x="810" y="700" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kafka" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;event-broker&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;YC Data Streams (Kafka)]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Топики: products.updated, policies.issued, osago.offers&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="1050" y="380" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kafka_i" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTkgMjEuNDkyQzE5IDIxLjI2NSAxOS4wNTEgMjEuMDUyIDE5LjE0NiAyMC44NTJMMTcuMjk4IDE4Ljk5OEgxNlYxOS42NzhDMTYgMjAuNDEyIDE1LjQwOCAyMC45OTggMTQuNjc5IDIwLjk5OEg5LjMyQzguNTkxIDIwLjk5OCA4IDIwLjQxMiA4IDE5LjY3OFYxMS4zMTlDOCAxMC41ODYgOC41OTIgOS45OTkwMSA5LjMyMSA5Ljk5OTAxSDE0LjY4QzE1LjQxIDkuOTk5MDEgMTYuMDAxIDEwLjU4NiAxNi4wMDEgMTEuMzE5VjExLjk5OUgxNy4yOTlMMTkuMTQ2IDEwLjE0NkMxOS4wMzYxIDkuOTE3NDkgMTguOTg2IDkuNjY0OCAxOS4wMDA0IDkuNDExNjNDMTkuMDE0OSA5LjE1ODQ2IDE5LjA5MzQgOC45MTMxMiAxOS4yMjg3IDguNjk4NjFDMTkuMzYzOSA4LjQ4NDEgMTkuNTUxNCA4LjMwNzQ3IDE5Ljc3MzYgOC4xODUyN0MxOS45OTU4IDguMDYzMDggMjAuMjQ1NCA3Ljk5OTMzIDIwLjQ5OSA4LjAwMDAxQzIwLjcyNDIgNy45OTk5MSAyMC45NDY2IDguMDUwNTQgMjEuMTQ5NiA4LjE0ODEzQzIxLjM1MjUgOC4yNDU3MiAyMS41MzA5IDguMzg3NzYgMjEuNjcxNSA4LjU2MzcyQzIxLjgxMjEgOC43Mzk2OCAyMS45MTEyIDguOTQ1MDMgMjEuOTYxNiA5LjE2NDU1QzIyLjAxMiA5LjM4NDA3IDIyLjAxMjMgOS42MTIxMSAyMS45NjI1IDkuODMxNzVDMjEuOTEyNiAxMC4wNTE0IDIxLjgxNCAxMC4yNTcgMjEuNjczOSAxMC40MzMzQzIxLjUzMzcgMTAuNjA5NiAyMS4zNTU3IDEwLjc1MjEgMjEuMTUzIDEwLjg1MDJDMjAuOTUwMiAxMC45NDgzIDIwLjcyOCAxMC45OTk1IDIwLjUwMjggMTFDMjAuMjc3NiAxMS4wMDA1IDIwLjA1NTEgMTAuOTUwMiAxOS44NTIgMTAuODUzTDE3Ljg2IDEyLjg1M0MxNy43NjU4IDEyLjk0NjIgMTcuNjM4NSAxMi45OTgzIDE3LjUwNiAxMi45OThIMTZWMTQuOTk4SDIxLjA4MkMyMS4yODggMTQuNDExIDIxLjg0NCAxMy45OTggMjIuNDk4IDEzLjk5OEMyMi44OTU4IDEzLjk5OCAyMy4yNzc0IDE0LjE1NiAyMy41NTg3IDE0LjQzNzNDMjMuODQgMTQuNzE4NiAyMy45OTggMTUuMTAwMiAyMy45OTggMTUuNDk4QzIzLjk5OCAxNS44OTU4IDIzLjg0IDE2LjI3NzQgMjMuNTU4NyAxNi41NTg3QzIzLjI3NzQgMTYuODQgMjIuODk1OCAxNi45OTggMjIuNDk4IDE2Ljk5OEMyMS44NDQgMTYuOTk4IDIxLjI4OCAxNi41ODQgMjEuMDgyIDE1Ljk5OEgxNlYxNy45OThIMTcuNTA2QzE3LjYzOCAxNy45OTggMTcuNzY2IDE4LjA1MSAxNy44NiAxOC4xNDRMMTkuODUzIDIwLjE0NEMyMC4wODEyIDIwLjAzMzYgMjAuMzMzNiAxOS45ODMgMjAuNTg2NyAxOS45OTY4QzIwLjgzOTggMjAuMDEwNiAyMS4wODUzIDIwLjA4ODUgMjEuMzAwMSAyMC4yMjMxQzIxLjUxNDggMjAuMzU3OCAyMS42OTE5IDIwLjU0NDcgMjEuODE0NyAyMC43NjY1QzIxLjkzNzUgMjAuOTg4MiAyMi4wMDE5IDIxLjIzNzUgMjIuMDAyIDIxLjQ5MUMyMi4wMDI5IDIxLjY4ODcgMjEuOTY0NyAyMS44ODQ3IDIxLjg4OTYgMjIuMDY3NkMyMS44MTQ2IDIyLjI1MDYgMjEuNzA0IDIyLjQxNjggMjEuNTY0NCAyMi41NTY5QzIxLjQyNDggMjIuNjk3IDIxLjI1ODkgMjIuODA4IDIxLjA3NjMgMjIuODgzN0MyMC44OTM2IDIyLjk1OTQgMjAuNjk3NyAyMi45OTgzIDIwLjUgMjIuOTk4QzIwLjMwMjMgMjIuOTk4MyAyMC4xMDY2IDIyLjk1OTUgMTkuOTI0IDIyLjg4MzhDMTkuNzQxNCAyMi44MDgyIDE5LjU3NTUgMjIuNjk3MiAxOS40MzU5IDIyLjU1NzNDMTkuMjk2MyAyMi40MTczIDE5LjE4NTggMjIuMjUxMSAxOS4xMTA2IDIyLjA2ODNDMTkuMDM1NSAyMS44ODU1IDE4Ljk5NzIgMjEuNjg5NyAxOC45OTggMjEuNDkySDE5Wk0xNSAxNy41MDVWMTcuNDkyQzE0Ljk5ODQgMTcuMzYwOCAxNC45NDUzIDE3LjIzNTQgMTQuODUyMiAxNy4xNDNDMTQuNzU5IDE3LjA1MDYgMTQuNjMzMiAxNi45OTg1IDE0LjUwMiAxNi45OThIOS40OThDOS4zNjY3NyAxNi45OTg1IDkuMjQxMDEgMTcuMDUwNiA5LjE0Nzg0IDE3LjE0M0M5LjA1NDY3IDE3LjIzNTQgOS4wMDE1NyAxNy4zNjA4IDkgMTcuNDkyVjE3LjUwNUM5LjAwMTgzIDE3LjYzNjEgOS4wNTUwNSAxNy43NjExIDkuMTQ4MTkgMTcuODUzM0M5LjI0MTMyIDE3Ljk0NTUgOS4zNjY5NCAxNy45OTc1IDkuNDk4IDE3Ljk5OEgxNC41MDJDMTQuNjMzMSAxNy45OTc1IDE0Ljc1ODcgMTcuOTQ1NSAxNC44NTE4IDE3Ljg1MzNDMTQuOTQ1IDE3Ljc2MTEgMTQuOTk4MiAxNy42MzYxIDE1IDE3LjUwNVpNMTUgMTMuNTA1VjEzLjQ5MkMxNC45OTgyIDEzLjM2MSAxNC45NDUgMTMuMjM1OSAxNC44NTE4IDEzLjE0MzdDMTQuNzU4NyAxMy4wNTE1IDE0LjYzMzEgMTIuOTk5NSAxNC41MDIgMTIuOTk5SDkuNDk4QzkuMzY2OTQgMTIuOTk5NSA5LjI0MTMyIDEzLjA1MTUgOS4xNDgxOSAxMy4xNDM3QzkuMDU1MDUgMTMuMjM1OSA5LjAwMTgzIDEzLjM2MSA5IDEzLjQ5MlYxMy41MDZDOS4wMDIwOSAxMy42MzY5IDkuMDU1NDIgMTMuNzYxNyA5LjE0ODUzIDEzLjg1MzdDOS4yNDE2NCAxMy45NDU3IDkuMzY3MTEgMTMuOTk3NSA5LjQ5OCAxMy45OThIMTQuNTAyQzE0LjYzMjkgMTMuOTk3NSAxNC43NTg0IDEzLjk0NTcgMTQuODUxNSAxMy44NTM3QzE0Ljk0NDYgMTMuNzYxNyAxNC45OTc5IDEzLjYzNjkgMTUgMTMuNTA2VjEzLjUwNVoiIGZpbGw9IndoaXRlIi8+JiN4YTs8L3N2Zz4=;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1064" y="390" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="aggr" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ins-product-aggregator&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;Kotlin, SpringBoot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Асинхронно опрашивает страховые компании (retry, timeout по каждой), публикует события продуктов и тарифов&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="1050" y="620" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="settl" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ins-comp-settlement&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;Kotlin, SpringBoot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Потребляет события оформленных страховок и продуктов, формирует ежемесячный реестр для расчёта премий&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="1480" y="640" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sdb" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ins-comp-settlement-db&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Реестр оформленных страховок для взаиморасчётов&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;size=6;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="850" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="osago" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;osago-aggregator&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;Kotlin, SpringBoot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Отправка заявок в страховые (fan-out), опрос решений (до 60 секунд), публикует события osago.offers (ключ — ID заявки)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+          <mxGeometry x="810" y="880" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="osagoddb" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;osago-aggregator-db&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container:&amp;nbsp;PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;Статусы ОСАГО-заявок: кому ушло, что пришло, что в опросе (источник правды)&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;size=6;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="890" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;использует веб-приложение&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[HTTPS]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="client" target="web" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;поиск, оформление, создать заявку ОСАГО&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="web" target="core" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;оплата (redirect)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[HTTP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="web" target="pay" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;проведение оплаты&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[HTTP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="core" target="pay" edge="1">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="545" />
+            </Array>
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;B2B API&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="partner" target="core" edge="1">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="140" />
+              <mxPoint x="380" y="505" />
+            </Array>
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;данные&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[TCP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="core" target="cdb" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;данные клиента&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="core" target="cinfo" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;данные&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[TCP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cinfo" target="cidb" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;личный кабинет&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="web" target="cinfo" edge="1">
+          <mxGeometry x="0.35" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="420" />
+              <mxPoint x="470" y="720" />
+            </Array>
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;события оформления (через Outbox)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[Kafka, topic: policies.issued]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.62;entryX=0;entryY=0.5;" parent="1" source="core" target="kafka" edge="1">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="450" />
+            </Array>
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;products.updated (подписка)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[Kafka, consume]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=0;exitY=0.375;entryX=1;entryY=0.19;" parent="1" source="kafka" target="core" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="415" />
+              <mxPoint x="770" y="415" />
+              <mxPoint x="770" y="505" />
+            </Array>
+            <mxPoint x="-20" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;products.updated (upsert)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[Kafka, produce]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="aggr" target="kafka" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;подписка на оба топика&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[Kafka, consume]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="kafka" target="settl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="460" />
+            </Array>
+            <mxPoint x="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;запрос продуктов и тарифов&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST / SOAP / GraphQL]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.1667;entryY=1;" parent="1" source="aggr" target="ins" edge="1">
+          <mxGeometry x="-0.55" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="580" />
+              <mxPoint x="1990" y="580" />
+            </Array>
+            <mxPoint x="-90" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;ежемесячный реестр для расчётов&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST / SOAP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="settl" target="ins" edge="1">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2050" y="710" />
+            </Array>
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;данные&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[TCP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="settl" target="sdb" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;ОСАГО: предложения&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[WebSocket]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=1;entryX=0.75;entryY=0;" parent="1" source="web" target="core" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;передать заявку на ОСАГО&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.85;entryX=0;entryY=0.1;" parent="1" source="core" target="osago" edge="1">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="585" />
+              <mxPoint x="760" y="893" />
+            </Array>
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;данные&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[TCP]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="osago" target="osagoddb" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;создать заявку; опросить решение (fan-out)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[REST (однотипный API)]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;entryX=0.5;entryY=1;" parent="1" source="osago" target="ins" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="1010" />
+            </Array>
+            <mxPoint x="-100" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;решения страховых&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[Kafka, topic: osago.offers]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=0.5;exitY=0;entryX=0.139;entryY=1;" parent="1" source="osago" target="kafka" edge="1">
+          <mxGeometry x="0.47" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="835" />
+              <mxPoint x="1030" y="540" />
+              <mxPoint x="1100" y="540" />
+            </Array>
+            <mxPoint x="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;осаго.offers (ключ = ID заявки)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[Kafka, consume]&lt;/div&gt;&lt;/div&gt;" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#0B5394;strokeWidth=1;endFill=1;strokeColor=#118ACD;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=0.25;exitY=1;entryX=0;entryY=0.95;" parent="1" source="kafka" target="core" edge="1">
+          <mxGeometry x="-0.18" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="670" />
+              <mxPoint x="610" y="670" />
+            </Array>
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pat_title" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:Arial;color:#000000;direction:ltr;line-height:130%;opacity:1&quot;&gt;&lt;b&gt;Паттерны отказоустойчивости (где применяются):&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="1030" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p_timeout" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota" parent="1" vertex="1">
+          <mxGeometry x="1250" y="1055" width="30" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="p_timeout_l" value="Timeout" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#2875E2;" parent="1" vertex="1">
+          <mxGeometry x="1233" y="1086" width="64" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="p_retry" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy" parent="1" vertex="1">
+          <mxGeometry x="1345" y="1055" width="30" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="p_retry_l" value="Retry" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#2875E2;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="1086" width="64" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="p_ratel" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job" parent="1" vertex="1">
+          <mxGeometry x="1440" y="1055" width="30" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="p_ratel_l" value="Rate Limiter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#2875E2;" parent="1" vertex="1">
+          <mxGeometry x="1423" y="1086" width="64" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="p_cbrk" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_role" parent="1" vertex="1">
+          <mxGeometry x="1535" y="1055" width="30" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="p_cbrk_l" value="Circuit Breaker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#2875E2;" parent="1" vertex="1">
+          <mxGeometry x="1518" y="1086" width="64" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="notes" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:Arial;color:#000000;direction:ltr;line-height:130%;opacity:1&quot;&gt;&lt;b&gt;Решения по продаже ОСАГО (новые элементы — синим), по вопросам задания:&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. &lt;b&gt;Своё хранилище: да.&lt;/b&gt; osago-aggregator-db хранит ОСАГО-заявку и статус запроса к каждой страховой: куда ушла, что пришло, что в опросе. Сервис работает в нескольких репликах, поэтому состояние живёт не в процессах: упала реплика — другая подхватывает и продолжает опрос. Предложения тоже сохраняются в БД: обновит клиент страницу или страховая ответит поздно — ничего не теряется.&lt;br&gt;&lt;br&gt;2. &lt;b&gt;API для core-app: REST.&lt;/b&gt; POST /osago/applications — создать заявку (сразу 202 с ID заявки); GET /osago/applications/{id} — статус и все пришедшие предложения (используется при переподключении). Создание — синхронная операция, событие для этого шага не подходит; предложения идут событием (пункт 3).&lt;br&gt;&lt;br&gt;3. &lt;b&gt;Интеграция core-app и osago-aggregator:&lt;/b&gt; создание — REST (стрелка «передать заявку на ОСАГО»); предложения — событие Kafka: агрегатор публикует в топик osago.offers (ключ — ID заявки, порядок предложений одной заявки сохраняется), core-app потребляет. Polling от core-app отклонён сознательно: он добавил бы задержку до периода опроса, а бизнес требует показать предложение сразу.&lt;br&gt;&lt;br&gt;4. &lt;b&gt;API для веб-приложения в core-app:&lt;/b&gt; REST POST /osago/applications (автомобиль, водитель; валидация; ID заявки) + WebSocket-канал на поток предложений: «пришло предложение страховой X» уходит в браузер мгновенно, не дожидаясь остальных; финальная сводка — событие по тому же каналу.&lt;br&gt;&lt;br&gt;5. &lt;b&gt;Интеграция веб-приложения и core-app: WebSocket&lt;/b&gt; — средство, отличное от REST, поэтому отражено новой синей стрелкой. Все остальные сценарии остаются REST.&lt;br&gt;&lt;br&gt;6. &lt;b&gt;Паттерны отказоустойчивости&lt;/b&gt; (иконки на ребре к страховым): Timeout — решение каждой страховой ждём не дольше 60 секунд; Retry — повтор «создать заявку» с backoff, с идемпотентным ключом, чтобы заявка не дублировалась у страховой; Circuit Breaker — по каждой страховой, чтобы медленная не забивала пул; Rate Limiter — ограничение исходящего RPS: при пике 2500 пользователей fan-out даёт 25 000 заявок страховым. На ребре core-app и агрегатор — timeout вызова создания.&lt;br&gt;&lt;br&gt;7. &lt;b&gt;Несколько реплик: решение не зависит от их количества.&lt;/b&gt; osago-aggregator stateless, состояние в БД — любая реплика может продолжить опрос. Реплики core-app образуют consumer group на топике; реплика, потребившая предложение, при необходимости доставляет его через общий pub/sub (Redis, инфраструктурный слой — на схеме не показан) на реплику, где живёт WebSocket-сессия клиента. Если такая реплика умерла, клиент переподключается, и любая реплика core-app отдаёт актуальный статус и все предложения из агрегатора.&lt;br&gt;&lt;br&gt;&lt;b&gt;Легенда:&lt;/b&gt; серая сплошная — синхронный вызов (REST/HTTP/TCP); синяя сплошная — новое синхронное взаимодействие ОСАГО; синяя пунктирная — асинхронное событие Kafka; синие иконки — паттерны отказоустойчивости.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="560" width="400" height="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
